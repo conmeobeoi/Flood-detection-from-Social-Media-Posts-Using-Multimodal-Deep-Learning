@@ -31,7 +31,7 @@ The dataset used in this project is extracted from one task related to flood eve
 - **Visual Feature Extractor**: We use transfer learning with pre-trained models: ResNet50, DenseNet-201, EfficientNetB3
   
 - **Textual Feature Extractor**: BERT, XLNet
-- 
+  
 - **Choosing Best-Performed CNN Model**: Models are trained with identical hyperparameters, and the one with the highest accuracy (EfficientNetB3) is selected.
 
 - **Selecting Best-Performed Language Model** : BERT outperforms XLNet in this step and is chosen for the next phase.
